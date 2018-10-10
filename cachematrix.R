@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## makeCacheMatrix Function generate a special type of matrix which can store its inverse where as
+## fcacheSolve function compute the inverse if the inverse is never calculated before or else it fetches the calculated inverse 
 
-## Write a short comment describing this function
+## Function generate a matrix able to store its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Calculates/Fetches the inverse 
 
 cacheSolve <- function(x, ...) {
   m <- x$getmean()
